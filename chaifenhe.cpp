@@ -34,3 +34,4 @@ int main()
     search(n,1);
     cout<<total;
 }
+//this line is useless
