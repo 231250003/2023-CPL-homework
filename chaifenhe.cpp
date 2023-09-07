@@ -34,4 +34,4 @@ int main()
     search(n,1);
     cout<<total;
 }
-//this line is useless
+//this line is useless by crz
