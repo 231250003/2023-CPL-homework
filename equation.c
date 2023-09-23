@@ -2,18 +2,18 @@
 #include<math.h>
 double cubic(double x)
 {
-    int y;
+    int t;
     int q=-abs(x)-1;
     int s=abs(x)+1;
     for(int i=q;i<=s;i++)
     {
         if(i*i*i<=x&&(i+1)*(i+1)*(i+1)>=x)
         {
-            y=i;
+            t=i;
             break;
         }
     }
-    for(double i=y;i<=y+1;i=i+0.0001)
+    for(double i=t;i<=t+1;i=i+0.0001)
     {
         if(pow(i,3)-x<=0&&pow(i+0.0001,3)-x>=0)
         {
